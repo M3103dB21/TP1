@@ -31,3 +31,13 @@ modifiedMessage, serverAddress = clientSocket.recvfrom(2048)
 print modifiedMessage
 clientSocket.close()
 ```
+### Netcat
+
+Enfin on à fini par utiliser netcat en tant que serveur (recevant du client UDP) 
+```
+nc -l -u 127.0.0.1 12000
+```
+et en tant que client (envoyant au serveur UDP)
+```
+nc -u 127.0.0.1 12000
+```

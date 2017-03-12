@@ -2,7 +2,7 @@
 
 ### Creation de serveur UDP
 Tout d'abord nous avons crée un serveur permettant de recevoir un message d'un client (détaillé a la suite), mettre en majuscule ce message et le renvoyer au client.
-```
+```Python
 from socket import *
 
 serverPort = 12000
@@ -18,7 +18,7 @@ while 1:
 ### Creation d'un client UDP
 
 Le client permet d'envoyer un message au serveur, dans notre cas, ou à n'importe quel adresse IP : Port.
-```
+```Python
 from socket import *
 
 serverName = "localhost"

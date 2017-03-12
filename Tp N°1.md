@@ -33,11 +33,11 @@ clientSocket.close()
 ```
 ### Netcat
 
-Enfin on à fini par utiliser netcat en tant que serveur (recevant du client UDP) 
+Enfin on a utilisé netcat en tant que serveur (recevant du client UDP) grâce au ligne de commande suivante entrée dans le terminal
 ```
 nc -l -u 127.0.0.1 12000
 ```
-et en tant que client (envoyant au serveur UDP)
+Ensuite netcat en tant que client (envoyant au serveur UDP)
 ```
 nc -u 127.0.0.1 12000
 ```
